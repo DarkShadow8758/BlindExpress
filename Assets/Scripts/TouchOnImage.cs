@@ -12,7 +12,6 @@ public class TouchOnImage : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     public void OnPointerDown(PointerEventData eventData)
     {
         isPressed = true;
-        Debug.Log("Imagem tocada!");
         btnLeft.color = Color.black;
         if (left)
         {
@@ -29,7 +28,6 @@ public class TouchOnImage : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     public void OnPointerUp(PointerEventData eventData)
     {
         isPressed = false;
-        Debug.Log("Imagem liberada!");
         btnLeft.color = Color.white;
         controls.Center();
     }

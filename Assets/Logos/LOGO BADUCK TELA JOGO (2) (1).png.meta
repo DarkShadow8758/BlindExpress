@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 84f88e10b230c344490ce3bd3273da0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1634786178222615522
+    second: LOGO BADUCK TELA JOGO (2) (1)_0
+  - first:
+      213: 1507805660818768399
+    second: LOGO BADUCK TELA JOGO (2) (1)_1
+  - first:
+      213: -197753600515779320
+    second: LOGO BADUCK TELA JOGO (2) (1)_2
+  - first:
+      213: 4683134564184239651
+    second: LOGO BADUCK TELA JOGO (2) (1)_3
+  - first:
+      213: -5870903639271951355
+    second: LOGO BADUCK TELA JOGO (2) (1)_4
+  - first:
+      213: -911794814361326246
+    second: LOGO BADUCK TELA JOGO (2) (1)_5
+  - first:
+      213: -1906994911988912450
+    second: LOGO BADUCK TELA JOGO (2) (1)_6
+  - first:
+      213: 7932711478741499567
+    second: LOGO BADUCK TELA JOGO (2) (1)_7
+  - first:
+      213: -3329011897282651482
+    second: LOGO BADUCK TELA JOGO (2) (1)_8
+  - first:
+      213: 6704962817459278190
+    second: LOGO BADUCK TELA JOGO (2) (1)_9
+  - first:
+      213: -5418112624587700149
+    second: LOGO BADUCK TELA JOGO (2) (1)_10
+  - first:
+      213: -5393880825148389249
+    second: LOGO BADUCK TELA JOGO (2) (1)_11
+  - first:
+      213: -7954510213974421487
+    second: LOGO BADUCK TELA JOGO (2) (1)_12
+  - first:
+      213: -5497169723535104235
+    second: LOGO BADUCK TELA JOGO (2) (1)_13
+  - first:
+      213: 4094207385128295522
+    second: LOGO BADUCK TELA JOGO (2) (1)_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_0
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1573
+        width: 1436
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e149253e1a21059e0800000000000000
+      internalID: -1634786178222615522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_1
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1002
+        width: 1284
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f020d63824dcce410800000000000000
+      internalID: 1507805660818768399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 381
+        width: 417
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805d338e520714df0800000000000000
+      internalID: -197753600515779320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 381
+        width: 565
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e2e85e216ddf040800000000000000
+      internalID: 4683134564184239651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 381
+        width: 482
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504b5a6de3c568ea0800000000000000
+      internalID: -5870903639271951355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 371
+        width: 397
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d23fd7277a853f0800000000000000
+      internalID: -911794814361326246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_6
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 367
+        width: 353
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe6c623b3ef885e0800000000000000
+      internalID: -1906994911988912450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_7
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 381
+        width: 438
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faefc048f07a61e60800000000000000
+      internalID: 7932711478741499567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_8
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 144
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa1b693159fcc1d0800000000000000
+      internalID: -3329011897282651482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_9
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 5
+        width: 136
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61dcd67820dc0d50800000000000000
+      internalID: 6704962817459278190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 0
+        width: 163
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48046a364ffec4b0800000000000000
+      internalID: -5418112624587700149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 5
+        width: 207
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f784d30b7f51525b0800000000000000
+      internalID: -5393880825148389249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 5
+        width: 27
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11096ddea17eb9190800000000000000
+      internalID: -7954510213974421487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 257
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51768aef24126b3b0800000000000000
+      internalID: -5497169723535104235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO BADUCK TELA JOGO (2) (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 0
+        width: 145
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c5a5bbceb81d830800000000000000
+      internalID: 4094207385128295522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LOGO BADUCK TELA JOGO (2) (1)_0: -1634786178222615522
+      LOGO BADUCK TELA JOGO (2) (1)_1: 1507805660818768399
+      LOGO BADUCK TELA JOGO (2) (1)_10: -5418112624587700149
+      LOGO BADUCK TELA JOGO (2) (1)_11: -5393880825148389249
+      LOGO BADUCK TELA JOGO (2) (1)_12: -7954510213974421487
+      LOGO BADUCK TELA JOGO (2) (1)_13: -5497169723535104235
+      LOGO BADUCK TELA JOGO (2) (1)_14: 4094207385128295522
+      LOGO BADUCK TELA JOGO (2) (1)_2: -197753600515779320
+      LOGO BADUCK TELA JOGO (2) (1)_3: 4683134564184239651
+      LOGO BADUCK TELA JOGO (2) (1)_4: -5870903639271951355
+      LOGO BADUCK TELA JOGO (2) (1)_5: -911794814361326246
+      LOGO BADUCK TELA JOGO (2) (1)_6: -1906994911988912450
+      LOGO BADUCK TELA JOGO (2) (1)_7: 7932711478741499567
+      LOGO BADUCK TELA JOGO (2) (1)_8: -3329011897282651482
+      LOGO BADUCK TELA JOGO (2) (1)_9: 6704962817459278190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
