@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WaveController : MonoBehaviour
 {
@@ -9,18 +10,27 @@ public class WaveController : MonoBehaviour
 
     private float timer = 0f;
     private float timerTrigger;
+    [SerializeField] private bool isPaused = false;
 
     public AudioSource audioSource;
     public AudioClip[] sfx;
 
     void Update()
     {
-        timer += Time.deltaTime;
+        if (isPaused == false && SceneManager.GetActiveScene().name != "GameOver")
+        {
+            timer += Time.deltaTime;
         if (timer >= interval)
         {
             SetRandomObstacle();
             timer = 0;
         }
+        }
+    }
+    public void SetPause(bool pause)
+    {
+        isPaused = pause;
+        Debug.Log("pausado" + pause);
     }
 
     void SetRandomObstacle()
@@ -46,7 +56,7 @@ public class WaveController : MonoBehaviour
             }
             audioSource.PlayOneShot(sound);
             timerTrigger = sound.length * 0.5f;
-            Debug.Log("Startou corotina sendo som: " + sound + " tt: " + timerTrigger + "side: " + side);
+           // Debug.Log("Startou corotina sendo som: " + sound + " tt: " + timerTrigger + "side: " + side);
             StartCoroutine(WaitSfxImpact(timerTrigger));
 
         }

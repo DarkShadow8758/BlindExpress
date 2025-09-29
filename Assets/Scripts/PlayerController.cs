@@ -22,7 +22,8 @@ public class PlayerController : MonoBehaviour
         audioSource.PlayOneShot(impactAudios[i]);
         if (life <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(2);
         }
     }
 

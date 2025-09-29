@@ -3,8 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+     
     public void NextScene()
     {
+        //audioSource.PlayOneShot(accept);
+        
         int cSindex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(cSindex + 1);
     }
