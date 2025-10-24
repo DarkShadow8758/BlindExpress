@@ -1,6 +1,4 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -16,48 +14,6 @@ public class Controls : MonoBehaviour
     public Canvas canvasUI;
     [SerializeField] private WaveController waveController;
     public int playerLocation = 1;
-
-
-    //public void OnLeft(InputValue value)
-    /* public void OnLeft(InputAction.CallbackContext ctx)
-    {
-        if (ctx.performed)
-        {
-            btnLeft.color = Color.blue;
-            playerLocation = 0;
-        }
-        else
-        {
-            btnLeft.color = Color.white;
-            playerLocation = 1;
-        }
-
-    } */
-    /* public void OnMiddle(InputAction.CallbackContext ctx)
-    {
-        if (ctx.performed)
-        {
-            btnLeft.color = Color.green;
-            
-        }
-        else
-        {
-            btnLeft.color = Color.white;
-        }
-    } */
-    /* public void OnRight(InputAction.CallbackContext ctx)
-    {
-        if (ctx.performed)
-        {
-            btnRight.color = Color.red;
-            playerLocation = 2;
-        }
-        else
-        {
-            btnRight.color = Color.white;
-            playerLocation = 1;
-        }
-    } */
     public void Start()
     {
         audioSource.PlayOneShot(audioinit);
