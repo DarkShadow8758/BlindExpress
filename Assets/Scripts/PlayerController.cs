@@ -16,7 +16,10 @@ public class PlayerController : MonoBehaviour
     {
         life--;
         tmpLife.text = life.ToString();
+    // Vibrate only on mobile platforms (Handheld exists there)
+    #if UNITY_ANDROID || UNITY_IOS
         Handheld.Vibrate();
+    #endif
         var i = Random.Range(0, 2);
         audioSource.Stop();
         audioSource.PlayOneShot(impactAudios[i]);
