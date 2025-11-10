@@ -35,6 +35,7 @@ sysinfo.txt
 *.mdb
 *.opendb
 *.VC.db
+.vsconfig
 
 # --- Builds ---
 *.apk
