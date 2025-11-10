@@ -4,16 +4,18 @@ using UnityEngine.SceneManagement;
 public class WaveController : MonoBehaviour
 {
     public float interval = 6f;
-    public int obstacleLocation;
+    public int projLocation;
     [SerializeField] private Controls controls;
     [SerializeField] private PlayerController playerController;
 
     private float timer = 0f;
     private float timerTrigger;
+    private float shieldChance;
     [SerializeField] private bool isPaused = false;
 
     public AudioSource audioSource;
-    public AudioClip[] sfx;
+    public AudioClip[] sfxObstacle;
+    public AudioClip[] sfxShield;
 
     void Update()
     {
@@ -35,45 +37,94 @@ public class WaveController : MonoBehaviour
 
     void SetRandomObstacle()
     {
-        obstacleLocation = Random.Range(0, 2) * 2;
+        shieldChance = Random.Range(0f, 1f);
+        projLocation = Random.Range(0, 2) * 2;
+        if (shieldChance >= 0.15f)
+        {
+            Debug.Log("curou");
+            PlaySFX(projLocation, "shield");
+        }
+        else
+        {
+            PlaySFX(projLocation, "obstacle");
+        }
+        
         //Debug.Log("Setando: " + obstacleLocation); 
-        PlaySFX(obstacleLocation);
+        
     }
 
-    public void PlaySFX(int side)
-    {
+    public void PlaySFX(int side, string type)
+    { 
         if (!audioSource.isPlaying)
         {
-            var sound = sfx[0];
-            switch (side)
+            var sound = sfxObstacle[0];
+            switch (type)
             {
-                case 0:
-                    sound = sfx[0]; //left
+                case "obstacle":
+                    switch (side)
+                    {
+                        case 0:
+                            sound = sfxObstacle[0]; //left
+                            break;
+                        case 2:
+                            sound = sfxObstacle[1]; //Right
+                            break;
+                    }
+                    audioSource.PlayOneShot(sound);
+                    timerTrigger = sound.length * 0.5f;
+                    // Debug.Log("Startou corotina sendo som: " + sound + " tt: " + timerTrigger + "side: " + side);
+                    StartCoroutine(WaitSfxImpact(timerTrigger, type));
                     break;
-                case 2:
-                    sound = sfx[1]; //Right
+                case "shield":
+                    switch (side)
+                    {
+                        case 0:
+                            sound = sfxShield[0];
+                            break;
+                        case 2:
+                            sound = sfxShield[1]; 
+                            break;
+                    }
+                    audioSource.PlayOneShot(sound);
+                    timerTrigger = sound.length * 0.5f; 
+                    StartCoroutine(WaitSfxImpact(timerTrigger, type));
                     break;
             }
-            audioSource.PlayOneShot(sound);
-            timerTrigger = sound.length * 0.5f;
-           // Debug.Log("Startou corotina sendo som: " + sound + " tt: " + timerTrigger + "side: " + side);
-            StartCoroutine(WaitSfxImpact(timerTrigger));
+            
+            
 
         }
     }
 
-    System.Collections.IEnumerator WaitSfxImpact(float time)
+    System.Collections.IEnumerator WaitSfxImpact(float time, string type)
     {
         yield return new WaitForSeconds(time);
-        Impact();
+        switch (type)
+        {
+            case "obstacle":
+                Impact();
+            break;
+            case "shield":
+                Collect();
+            break;
+        }
+        
     }
 
     void Impact()
     {
-        if (obstacleLocation == controls.playerLocation || controls.playerLocation == 1)
+        if (projLocation == controls.playerLocation || controls.playerLocation == 1)
         {
             playerController.Damage();
-            Debug.Log("p l:" + controls.playerLocation + "obs l " + obstacleLocation);
+            Debug.Log("p l:" + controls.playerLocation + "obs l " + projLocation);
+        }
+    }
+    void Collect()
+    {
+        if (projLocation == controls.playerLocation || controls.playerLocation == 1)
+        {
+            playerController.GainLife();
+            Debug.Log("p l:" + controls.playerLocation + "obs l " + projLocation);
         }
     }
 }

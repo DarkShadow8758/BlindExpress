@@ -1218,6 +1218,30 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1786997995}
+    - target: {fileID: 8635112598696111733, guid: 22acdc52eb169ab4f8448d022492770b, type: 3}
+      propertyPath: sfxShield.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8635112598696111733, guid: 22acdc52eb169ab4f8448d022492770b, type: 3}
+      propertyPath: sfxObstacle.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8635112598696111733, guid: 22acdc52eb169ab4f8448d022492770b, type: 3}
+      propertyPath: 'sfxShield.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: ff27ba517eb881d47b7310baad7c2dd3, type: 3}
+    - target: {fileID: 8635112598696111733, guid: 22acdc52eb169ab4f8448d022492770b, type: 3}
+      propertyPath: 'sfxShield.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 21403102fab4fbd4ab50c27c023e41ea, type: 3}
+    - target: {fileID: 8635112598696111733, guid: 22acdc52eb169ab4f8448d022492770b, type: 3}
+      propertyPath: 'sfxObstacle.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: ff27ba517eb881d47b7310baad7c2dd3, type: 3}
+    - target: {fileID: 8635112598696111733, guid: 22acdc52eb169ab4f8448d022492770b, type: 3}
+      propertyPath: 'sfxObstacle.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 21403102fab4fbd4ab50c27c023e41ea, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
