@@ -4,8 +4,6 @@ using UnityEngine.UI;
 
 public class Controls : MonoBehaviour
 {
-    [SerializeField] private Image btnLeft;
-    [SerializeField] private Image btnRight;
    public AudioClip accept;
    public AudioClip audioinit;
      public AudioClip play;
@@ -18,6 +16,10 @@ public class Controls : MonoBehaviour
     {
         audioSource.PlayOneShot(audioinit);
     }
+    void Update()
+    {
+        Debug.Log(playerLocation);
+    }
     public void Audioinit()
     {
         
@@ -25,6 +27,7 @@ public class Controls : MonoBehaviour
     public void Left()
     {
         playerLocation = 0;
+        //Debug.Log("clicado esquerda");
     }
     public void Middle()
     {
@@ -34,7 +37,7 @@ public class Controls : MonoBehaviour
             canvasPause.gameObject.SetActive(true);
             canvasUI.gameObject.SetActive(false);
             waveController.SetPause(true);
-            Debug.Log("canvas criado");
+            //Debug.Log("canvas criado");
         }
     }
     public void Play()
@@ -52,14 +55,17 @@ public class Controls : MonoBehaviour
     public void Right()
     {
         playerLocation = 2;
+        //Debug.Log("clicadp direita");
+    
     }
     public void Center()
     {
-        playerLocation = 1;
+        playerLocation = 1; 
     }
     public void Retry()
     {
         SceneManager.LoadScene(1);
+        Debug.Log("clicadp retry");
     }
     
 }
