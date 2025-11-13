@@ -10,7 +10,13 @@ public class WaveController : MonoBehaviour
 
     private float timer = 0f;
     private float timerTrigger;
-    private float shieldChance;
+    [Header("Play timer")]
+    [Tooltip("Tempo em segundos até avançar para a próxima cena (por padrão 120 = 2 minutos)")]
+    public float playDuration = 120f;
+    private float playTimer = 0f;
+    private bool hasTimedOut = false;
+    [Range(0f, 1f)]
+    [SerializeField] private float shieldChance;
     [SerializeField] private bool isPaused = false;
 
     public AudioSource audioSource;
@@ -22,12 +28,34 @@ public class WaveController : MonoBehaviour
         if (isPaused == false && SceneManager.GetActiveScene().name != "GameOver")
         {
             timer += Time.deltaTime;
+            // contador de tempo de jogo para avançar de cena
+            if (!hasTimedOut)
+            {
+                playTimer += Time.deltaTime;
+                if (playTimer >= playDuration)
+                {
+                    hasTimedOut = true;
+                    GoToNextScene();
+                }
+            }
         if (timer >= interval)
         {
             SetRandomObstacle();
             timer = 0;
         }
         }
+    }
+
+    void GoToNextScene()
+    {
+        int current = SceneManager.GetActiveScene().buildIndex;
+        int next = 3;
+        if (next >= SceneManager.sceneCountInBuildSettings)
+        {
+            // se não houver próxima cena, volta para a primeira (index 0)
+            next = 3;
+        }
+        SceneManager.LoadScene(next);
     }
     public void SetPause(bool pause)
     {
@@ -37,11 +65,12 @@ public class WaveController : MonoBehaviour
 
     void SetRandomObstacle()
     {
-        shieldChance = Random.Range(0f, 1f);
+
         projLocation = Random.Range(0, 2) * 2;
-        if (shieldChance >= 0.15f)
+        
+        if (Random.Range(0f, 1f) <= shieldChance)
         {
-            Debug.Log("curou");
+            //Debug.Log("curou");
             PlaySFX(projLocation, "shield");
         }
         else
@@ -116,7 +145,7 @@ public class WaveController : MonoBehaviour
         if (projLocation == controls.playerLocation || controls.playerLocation == 1)
         {
             playerController.Damage();
-            Debug.Log("p l:" + controls.playerLocation + "obs l " + projLocation);
+            Debug.Log("player em: " + controls.playerLocation + "projetil em: " + projLocation);
         }
     }
     void Collect()
@@ -124,7 +153,7 @@ public class WaveController : MonoBehaviour
         if (projLocation == controls.playerLocation || controls.playerLocation == 1)
         {
             playerController.GainLife();
-            Debug.Log("p l:" + controls.playerLocation + "obs l " + projLocation);
+            Debug.Log("player em: " + controls.playerLocation + "projetil em: " + projLocation);
         }
     }
 }
