@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: af3a52069b8aeb04293f5aebcea1462b
+guid: ec7616fdcfc10574d81d94b4c07c142d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4101855419628116070
-    second: Manche LD_0
-  - first:
-      213: -378203610012733611
-    second: Manche LD_1
-  - first:
-      213: 6083027925931877445
-    second: Manche LD_2
-  - first:
-      213: 2003440516001518275
-    second: Manche LD_3
-  - first:
-      213: -5707719189950654759
-    second: Manche LD_4
-  - first:
-      213: 4746661747192102946
-    second: Manche LD_5
-  - first:
-      213: 2024758895165993202
-    second: Manche LD_6
-  - first:
-      213: -1830565926734239118
-    second: Manche LD_7
-  - first:
-      213: -1124413288628202271
-    second: Manche LD_8
-  - first:
-      213: -1990003874599417142
-    second: Manche LD_9
+      213: 3751099095594298533
+    second: MancheLD_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -127,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Manche LD_0
+      name: MancheLD_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,206 +115,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a972e097a384317c0800000000000000
-      internalID: -4101855419628116070
+      spriteID: 5acef26d0c49e0430800000000000000
+      internalID: 3751099095594298533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_1
+      name: MancheLD_1
       rect:
         serializedVersion: 2
-        x: 500
+        x: 160
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55fab6c02d950caf0800000000000000
-      internalID: -378203610012733611
+      spriteID: e1e20718a2c3e1446b7675fd1be63c63
+      internalID: -870793677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_2
+      name: MancheLD_2
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 320
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 54463fb5ba14b6450800000000000000
-      internalID: 6083027925931877445
+      spriteID: 8e8ee205328af2c448e8edfc74af1bff
+      internalID: -913351896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_3
+      name: MancheLD_3
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 480
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c255ecd886adcb10800000000000000
-      internalID: 2003440516001518275
+      spriteID: fd2bd54970089b8469dbb5afaadfaf63
+      internalID: 188232832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_4
+      name: MancheLD_4
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 640
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d69f4533ab1ac0b0800000000000000
-      internalID: -5707719189950654759
+      spriteID: ba4a21a1c07bb1b46bf09b1ef1f4c631
+      internalID: -106074206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_5
+      name: MancheLD_5
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 800
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 220025ec5b78fd140800000000000000
-      internalID: 4746661747192102946
+      spriteID: 41238752a2bcae14c9b4a281fc52f058
+      internalID: 1916968589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_6
+      name: MancheLD_6
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 960
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f07e2ecc73691c10800000000000000
-      internalID: 2024758895165993202
+      spriteID: 24867b4a70923a44f91a3a2d196889ec
+      internalID: -848935425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_7
+      name: MancheLD_7
       rect:
         serializedVersion: 2
-        x: 3500
+        x: 1120
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27a62170df58896e0800000000000000
-      internalID: -1830565926734239118
+      spriteID: 32c27b7892d5c084fbdbf1f199bd457e
+      internalID: 498693132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_8
+      name: MancheLD_8
       rect:
         serializedVersion: 2
-        x: 4000
+        x: 1280
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e4569642184560f0800000000000000
-      internalID: -1124413288628202271
+      spriteID: 74625793c7d37db43a3f50e74f9b3228
+      internalID: -1100930612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manche LD_9
+      name: MancheLD_9
       rect:
         serializedVersion: 2
-        x: 4500
+        x: 1440
         y: 0
-        width: 500
-        height: 500
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: acac9d005061264e0800000000000000
-      internalID: -1990003874599417142
+      spriteID: 7b0fb75e95c8c864e83f34255e2ce618
+      internalID: 238900593
       vertices: []
       indices: 
       edges: []
@@ -350,7 +323,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 47de2c872c550ae488cb15665742e219
+    spriteID: f7c791f08b3e8a14f8d888909b19c950
     internalID: 0
     vertices: []
     indices: 
@@ -360,16 +333,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Manche LD_0: -4101855419628116070
-      Manche LD_1: -378203610012733611
-      Manche LD_2: 6083027925931877445
-      Manche LD_3: 2003440516001518275
-      Manche LD_4: -5707719189950654759
-      Manche LD_5: 4746661747192102946
-      Manche LD_6: 2024758895165993202
-      Manche LD_7: -1830565926734239118
-      Manche LD_8: -1124413288628202271
-      Manche LD_9: -1990003874599417142
+      MancheLD_0: 3751099095594298533
+      MancheLD_1: -870793677
+      MancheLD_2: -913351896
+      MancheLD_3: 188232832
+      MancheLD_4: -106074206
+      MancheLD_5: 1916968589
+      MancheLD_6: -848935425
+      MancheLD_7: 498693132
+      MancheLD_8: -1100930612
+      MancheLD_9: 238900593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

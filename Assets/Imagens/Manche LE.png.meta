@@ -67,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -133,10 +133,10 @@ TextureImporter:
       name: Manche LE_0
       rect:
         serializedVersion: 2
-        x: 151
-        y: 171
-        width: 240
-        height: 160
+        x: 40
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: Manche LE_1
       rect:
         serializedVersion: 2
-        x: 643
-        y: 149
-        width: 248
-        height: 162
+        x: 540
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,10 +177,10 @@ TextureImporter:
       name: Manche LE_2
       rect:
         serializedVersion: 2
-        x: 1143
-        y: 119
-        width: 249
-        height: 172
+        x: 1040
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: Manche LE_3
       rect:
         serializedVersion: 2
-        x: 1648
-        y: 93
-        width: 245
-        height: 188
+        x: 1540
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Manche LE_4
       rect:
         serializedVersion: 2
-        x: 2157
-        y: 69
-        width: 235
-        height: 213
+        x: 2040
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,10 +243,10 @@ TextureImporter:
       name: Manche LE_5
       rect:
         serializedVersion: 2
-        x: 2657
-        y: 69
-        width: 235
-        height: 213
+        x: 2540
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Manche LE_6
       rect:
         serializedVersion: 2
-        x: 3148
-        y: 93
-        width: 245
-        height: 188
+        x: 3040
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +287,10 @@ TextureImporter:
       name: Manche LE_7
       rect:
         serializedVersion: 2
-        x: 3643
-        y: 119
-        width: 249
-        height: 172
+        x: 3540
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: Manche LE_8
       rect:
         serializedVersion: 2
-        x: 4143
-        y: 149
-        width: 248
-        height: 162
+        x: 4040
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: Manche LE_9
       rect:
         serializedVersion: 2
-        x: 4651
-        y: 171
-        width: 240
-        height: 160
+        x: 4540
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,20 +353,20 @@ TextureImporter:
       name: Manche LE_10
       rect:
         serializedVersion: 2
-        x: 5151
-        y: 171
-        width: 240
-        height: 160
+        x: 5040
+        y: 0
+        width: 460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7a433bc8b1fd5620800000000000000
-      internalID: 2764631522260765310
+      spriteID: 92548daef0555424f8eeb0b3aada7a38
+      internalID: -1615675245
       vertices: []
       indices: 
       edges: []
@@ -375,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c1b85ba5c69aeba44890e4f9904b31f1
     internalID: 0
     vertices: []
     indices: 
@@ -387,7 +387,7 @@ TextureImporter:
     nameFileIdTable:
       Manche LE_0: -8658436107665453935
       Manche LE_1: -7260254278879575763
-      Manche LE_10: 2764631522260765310
+      Manche LE_10: -1615675245
       Manche LE_2: 2340450057436948336
       Manche LE_3: 8769027277597973687
       Manche LE_4: 269279688317267169
