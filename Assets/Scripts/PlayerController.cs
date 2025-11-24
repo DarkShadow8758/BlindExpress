@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     {
         life--;
         tmpLife.text = life.ToString();
-         Debug.Log("dano");
     // Vibrate only on mobile platforms (Handheld exists there)
     #if UNITY_ANDROID || UNITY_IOS
         Handheld.Vibrate();
@@ -34,7 +33,6 @@ public class PlayerController : MonoBehaviour
     {
         life += 1;
         tmpLife.text = life.ToString();
-        Debug.Log("vida");
         // Vibrate only on mobile platforms (Handheld exists there)
         #if UNITY_ANDROID || UNITY_IOS
                 Handheld.Vibrate();

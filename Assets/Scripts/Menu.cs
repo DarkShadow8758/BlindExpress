@@ -5,6 +5,12 @@ public class Menu : MonoBehaviour
 {
     public AudioClip[] sfx;
     public AudioSource audioSource;
+
+    void Start()
+    {
+        UAP_AccessibilityManager.EnableAccessibility(true);
+
+    }
     public void NextScene()
     {
         audioSource.PlayOneShot(sfx[1]);

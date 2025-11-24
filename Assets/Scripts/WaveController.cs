@@ -28,7 +28,6 @@ public class WaveController : MonoBehaviour
         if (isPaused == false && SceneManager.GetActiveScene().name != "GameOver")
         {
             timer += Time.deltaTime;
-            // contador de tempo de jogo para avançar de cena
             if (!hasTimedOut)
             {
                 playTimer += Time.deltaTime;
@@ -52,7 +51,6 @@ public class WaveController : MonoBehaviour
         int next = 3;
         if (next >= SceneManager.sceneCountInBuildSettings)
         {
-            // se não houver próxima cena, volta para a primeira (index 0)
             next = 3;
         }
         SceneManager.LoadScene(next);
@@ -60,7 +58,6 @@ public class WaveController : MonoBehaviour
     public void SetPause(bool pause)
     {
         isPaused = pause;
-        Debug.Log("pausado" + pause);
     }
 
     void SetRandomObstacle()
@@ -145,15 +142,15 @@ public class WaveController : MonoBehaviour
         if (projLocation == controls.playerLocation || controls.playerLocation == 1)
         {
             playerController.Damage();
-            Debug.Log("player em: " + controls.playerLocation + "projetil em: " + projLocation);
+            //Debug.Log("player em: " + controls.playerLocation + "projetil em: " + projLocation);
         }
     }
     void Collect()
     {
-        if (projLocation == controls.playerLocation || controls.playerLocation == 1)
+        if (projLocation == controls.playerLocation)
         {
             playerController.GainLife();
-            Debug.Log("player em: " + controls.playerLocation + "projetil em: " + projLocation);
+            //Debug.Log("player em: " + controls.playerLocation + "projetil em: " + projLocation);
         }
     }
 }
