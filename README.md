@@ -76,4 +76,4 @@ Você pode verificar o código-fonte completo no repositório:
 
 * **Núcleo de Acessibilidade**, pelo apoio teórico e feedback sobre usabilidade.
 * **Professores da UNISO**, pelo norte que nos trouxeram para desenvolver este trabalho.
-* ***Gigiah Cabello**, por todo o suporte e disposição em esclarecer dúvidas sobre dublagem, além de dar voz a nossa personagem principal e a sua assistete IA.
+* **Gigiah Cabello**, por todo o suporte e disposição em esclarecer dúvidas sobre dublagem, além de dar voz a nossa personagem principal e a sua assistete IA.
