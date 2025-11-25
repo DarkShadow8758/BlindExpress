@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: b714e3776512ffe4493d6d0c350d7e56
+  - enabled: 1
+    path: Assets/Scenes/LevelInfinite.unity
+    guid: c4557241c943ab44692ad65b94d7df88
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 7cc6b2788921c614eb3d7b6867ec69c8, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: fa5261ec054e9624eac03899770c3ebd, type: 2}
