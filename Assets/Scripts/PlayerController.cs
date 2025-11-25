@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     {
         life--;
         tmpLife.text = life.ToString();
-    // Vibrate only on mobile platforms (Handheld exists there)
+    // aqui estou chamando a vibrção no mobile, ja que no pc e editor é retornado erro
     #if UNITY_ANDROID || UNITY_IOS
         Handheld.Vibrate();
     #endif
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
         audioSource.PlayOneShot(impactAudios[i]);
         if (life <= 0)
         {
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             SceneManager.LoadScene(2);
         }
     }
@@ -33,7 +32,6 @@ public class PlayerController : MonoBehaviour
     {
         life += 1;
         tmpLife.text = life.ToString();
-        // Vibrate only on mobile platforms (Handheld exists there)
         #if UNITY_ANDROID || UNITY_IOS
                 Handheld.Vibrate();
         #endif

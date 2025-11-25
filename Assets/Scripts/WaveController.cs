@@ -47,12 +47,7 @@ public class WaveController : MonoBehaviour
 
     void GoToNextScene()
     {
-        int current = SceneManager.GetActiveScene().buildIndex;
         int next = 3;
-        if (next >= SceneManager.sceneCountInBuildSettings)
-        {
-            next = 3;
-        }
         SceneManager.LoadScene(next);
     }
     public void SetPause(bool pause)
@@ -90,10 +85,10 @@ public class WaveController : MonoBehaviour
                     switch (side)
                     {
                         case 0:
-                            sound = sfxObstacle[0]; //left
+                            sound = sfxObstacle[0]; // esquerda
                             break;
                         case 2:
-                            sound = sfxObstacle[1]; //Right
+                            sound = sfxObstacle[1]; //direita
                             break;
                     }
                     audioSource.PlayOneShot(sound);
@@ -116,9 +111,6 @@ public class WaveController : MonoBehaviour
                     StartCoroutine(WaitSfxImpact(timerTrigger, type));
                     break;
             }
-            
-            
-
         }
     }
 

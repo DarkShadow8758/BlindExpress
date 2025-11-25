@@ -43,14 +43,14 @@ public class SoundManager : MonoBehaviour
     }
     public static void PlayTutorialClip(AudioClip clip, Action onFinish, float volume = 1)
     {
-        Debug.Log("play tutorial clip");
+        //Debug.Log("play tutorial clip");
         instance.StopAllCoroutines();
         instance.StartCoroutine(instance.PlayTutorialRoutine(clip, onFinish, volume));
     }
 
     private IEnumerator PlayTutorialRoutine(AudioClip clip, Action onFinish, float volume)
     {
-        Debug.Log("play tutorial routine" + clip);
+        //Debug.Log("play tutorial routine" + clip);
         instance.audioSource.PlayOneShot(clip, volume);
         yield return new WaitForSeconds(clip.length);
 

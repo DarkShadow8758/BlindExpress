@@ -38,7 +38,7 @@ public class TutorialManager : MonoBehaviour
             current++;
         }
 
-        Debug.Log("Tutorial concluído!");
+       // Debug.Log("Tutorial concluido!");
         OnTutorialComplete();
     }
 
@@ -52,7 +52,7 @@ public class TutorialManager : MonoBehaviour
 
     private void OnTutorialComplete()
 {
-    Debug.Log("Tutorial concluído!");
+    //Debug.Log("Tutorial concluido!");
     FindObjectOfType<Menu>().NextScene();
 }
 
