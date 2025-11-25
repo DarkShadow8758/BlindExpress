@@ -40,7 +40,7 @@ MonoBehaviour:
     x: -174
     y: 294
     width: 914
-    height: 2691
+    height: 2690
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1829,7 +1829,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615056}
   m_ExposedName: XScaleRange
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -1982,7 +1982,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615060}
   m_ExposedName: YScaleRange
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -3906,7 +3906,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615255}
   m_ExposedName: SpawnRate
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -4169,7 +4169,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615263}
   m_ExposedName: ColorGradient
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 4
   m_Category: 
   m_Min:
     m_Type:
