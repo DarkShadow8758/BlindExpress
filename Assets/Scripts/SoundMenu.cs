@@ -5,7 +5,7 @@ public class SoundMenu : MonoBehaviour
     void Start()
     {
         SoundManager.PlaySound(SoundType.DIALOGUE_MENU);
-        Debug.Log("a");
+        //Debug.Log("teste");
 
     }
 

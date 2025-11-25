@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class LoadInfiniteMode : MonoBehaviour
 {
 [Tooltip("Tempo em segundos antes de trocar de cena")]
-    public float delay = 3f;
+    public float delay = 130f;
 
     void Start()
     {
@@ -18,7 +18,6 @@ public class LoadInfiniteMode : MonoBehaviour
         int indexAtual = SceneManager.GetActiveScene().buildIndex;
         int proximaCena = indexAtual + 1;
 
-        // Verifica se a próxima cena existe na Build Settings
         if (proximaCena < SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(proximaCena);

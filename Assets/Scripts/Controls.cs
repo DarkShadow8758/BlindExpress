@@ -65,7 +65,7 @@ public class Controls : MonoBehaviour
     public void Retry()
     {
         SceneManager.LoadScene(1);
-        Debug.Log("clicadp retry");
+       // Debug.Log("clicadp retry");
     }
     
 }
